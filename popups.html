@@ -215,7 +215,8 @@
         type="text/css" data-template-style="true" rel="stylesheet">
 
 
-
+    <!-- 08/11/21 -->
+    <link href="./css/custom.css" type="text/css" rel="stylesheet">
 
 
 
@@ -3337,170 +3338,10 @@
     </div>
     <div class="main_content">
         <div class="wrapper-inner">
-
-
-            <div itemscope="" itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs"
-                class="breadcrumbs breadcrumb" aria-label="breadcrumb">
-
-                <div class="breadcrumb-item breadcrumbs_item">
-                    <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-                        <a href="http://tau.h2.victory.su/" title="Главная" itemprop="item"
-                            class="breadcrumbs_item-link">
-                            <span itemprop="name">Главная</span>
-                            <meta itemprop="position" content="0">
-                        </a>
-                    </span>
-                </div>
-                <div class="breadcrumb-item breadcrumbs_item">
-                    <span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-                        <a href="http://tau.h2.victory.su/personal/" title="Личный кабинет" itemprop="item"
-                            class="breadcrumbs_item-link">
-                            <span itemprop="name">Личный кабинет</span>
-                            <meta itemprop="position" content="1">
-                        </a>
-                    </span>
-                </div>
-                <div class="breadcrumb-item active breadcrumbs_item item">
-                    <span>Профиль</span>
-                </div>
-            </div>
-            <div class="title_box">
-                <h1>Профиль пользователя</h1>
-            </div>
-
-
-            <div class="bx_profile">
-                <form class="lk_form account-form" method="post" name="form1"
-                    action="http://tau.h2.victory.su/personal/private/" enctype="multipart/form-data" role="form">
-                    <input type="hidden" name="sessid" id="sessid" value="e75d9e64f5867332fe4fd1118bb4a924"> <input
-                        type="hidden" name="lang" value="s1">
-                    <input type="hidden" name="ID" value="1">
-                    <input type="hidden" name="LOGIN" value="79111111111">
-                    <div class="account-form__wrapper main-profile-block-shown" id="user_div_reg">
-                        <div class="main-profile-block-date-info">
-                            <div class="small">
-                                <strong>Дата обновления:</strong>
-                                <strong>22.07.2021 15:23:51</strong>
-                            </div>
-                            <div class="small">
-                                <strong>Последняя авторизация:</strong>
-                                <strong>08.11.2021 10:27:24</strong>
-                            </div>
-                        </div>
-
-                        <div class="form__widget form__widget_fio">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="main-profile-last-name">Фамилия:</label>
-                                    <input class="text-field" type="text" name="LAST_NAME" maxlength="50"
-                                        id="main-profile-last-name" value="Проханов">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form__widget form__widget_fio">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="main-profile-name">Имя:</label>
-                                    <input class="text-field" type="text" name="NAME" maxlength="50"
-                                        id="main-profile-name" value="Сергей">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form__widget form__widget_fio">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="main-profile-second-name">Отчество:</label>
-                                    <input class="text-field" type="text" name="SECOND_NAME" maxlength="50"
-                                        id="main-profile-second-name" value="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form__widget form__widget_birthday">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="PERSONAL_BIRTHDAY">Дата рождения:</label>
-                                    <div class="form__widget-input">
-                                        <input type="text" id="PERSONAL_BIRTHDAY" name="PERSONAL_BIRTHDAY" value=""><img
-                                            src="./files/calendar-icon.gif"
-                                            alt="Выбрать дату в календаре" class="calendar-icon"
-                                            onclick="BX.calendar({node:this, field:&#39;PERSONAL_BIRTHDAY&#39;, form: &#39;form1&#39;, bTime: false, currentTime: &#39;1636367423&#39;, bHideTime: false});"
-                                            onmouseover="BX.addClass(this, &#39;calendar-icon-hover&#39;);"
-                                            onmouseout="BX.removeClass(this, &#39;calendar-icon-hover&#39;);"
-                                            border="0">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form__widget form__widget_gender">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <div class="form__widget-label">Пол:</div>
-                                    <ul class="tabs_gender">
-                                        <li class="tabs__item">
-                                            <input id="female" type="radio" name="PERSONAL_GENDER" value="F">
-                                            <label for="female"
-                                                class="tabs__item-btn female"><span>Женский</span></label>
-                                        </li>
-                                        <li class="tabs__item">
-                                            <input id="male" type="radio" name="PERSONAL_GENDER" value="M">
-                                            <label for="male" class="tabs__item-btn male"><span>Мужской</span></label>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form__widget form__widget_email">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="main-profile-email">E-Mail:</label>
-                                    <input class="text-field" type="text" name="EMAIL" maxlength="50"
-                                        id="main-profile-email" value="oepink80@gmail.com">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form__widget form__widget_password">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="main-profile-password">Новый пароль:</label>
-                                    <input class="text-field" type="password" name="NEW_PASSWORD" maxlength="50"
-                                        id="main-profile-password" value="" autocomplete="off">
-                                    <p class="main-profile-form-password-annotation small">
-                                        пароль должен быть не менее 6 символов длиной, содержать латинские символы
-                                        верхнего регистра (A-Z), содержать латинские символы нижнего регистра (a-z),
-                                        содержать цифры (0-9), содержать знаки пунктуации
-                                        (,.&lt;&gt;/?;:'"[]{}\|`~!@#$%^&amp;*()_+=-). </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form__widget form__widget_password">
-                            <div class="">
-                                <div class="account-form__widget form__widget-box">
-                                    <label class="form__widget-label" for="main-profile-password-confirm">Подтверждение
-                                        нового пароля:</label>
-                                    <input class="text-field" type="password" name="NEW_PASSWORD_CONFIRM" maxlength="50"
-                                        value="" id="main-profile-password-confirm" autocomplete="off">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form__controls password-form__controls">
-                        <input type="submit" name="save" class="btn-form__control btn-primary main-profile-submit"
-                            value="Сохранить">
-                        <div class="btn-green-border btn-form__control">
-                            <input type="submit" class="cancel" name="reset" value="Отмена">
-                        </div>
-                        <div class="btn-logout">
-                            <a href="http://tau.h2.victory.su/personal/private/?logout=yes"
-                                class="btn btn-cancel btn-green-border">Выйти</a>
-                        </div>
-                    </div>
-                </form>
-                <div class="col-sm-12 main-profile-social-block">
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <br>
+            <div data-popup="sign">попап войти</div>
+            <div data-popup="password">попап восстановить пароль</div>
+            <div data-popup="sms">попап смс</div>
+            <div data-popup="sms2">попап введите код из смс</div>
         </div>
     </div>
 
@@ -3520,7 +3361,146 @@
         </div>
     </div>
 
-    
+    <div class="m-popup__container active">
+        <div class="m-popup popup popup-sign">
+            <form action="#" class="form-validate">
+                <div class="m-popup__close popup__close">
+                    <img src="img/m-popup-close.svg" alt="">
+                </div>
+                <div class="m-popup__title">
+                    Авторизация
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Номер телефона
+                    </div>
+                    <input type="text" name="phone" class="phone-mask">
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Пароль
+                    </div>
+                    <input type="password" name="password">
+                </div>
+                <div class="m-popup__forgot-container">
+                    <a href="#" class="m-popup__forgot">
+                        Забыли пароль
+                    </a>
+                </div>
+                <button class="m-popup__button">
+                    Войти
+                </button>
+                <div class="m-popup__button-sms" data-popup="sms">
+                    Войти по СМС
+                </div>
+                <div class="m-popup__bottom-text">
+                    У вас еще нет аккаунта? <a href="#">Зарегистрируйтесь</a>
+                </div>
+            </form>
+        </div>
+        <div class="m-popup popup popup-password">
+            <form action="#" class="form-validate-password">
+                <div class="m-popup__close">
+                    <img src="img/m-popup-close.svg" alt="">
+                </div>
+                <div class="m-popup__title">
+                    Восстановление пароля
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Номер телефона
+                    </div>
+                    <input type="text" name="phone" class="phone-mask">
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Пароль
+                    </div>
+                    <input type="password" name="password">
+                </div>
+                <button class="m-popup__button">
+                    Отправить
+                </button>
+            </form>
+        </div>
+        <div class="m-popup popup popup-sms">
+            <form action="#" class="form-validate-sms">
+                <div class="m-popup__close popup__close">
+                    <img src="img/m-popup-close.svg" alt="">
+                </div>
+                <div class="m-popup__title">
+                    Вход по СМС
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Номер телефона
+                    </div>
+                    <input type="text" name="phone" class="phone-mask">
+                </div>
+                <button class="m-popup__button-sms">
+                    Войти по СМС
+                </button>
+                <div class="m-popup__bottom-text">
+                    У вас еще нет аккаунта? <a href="#">Зарегистрируйтесь</a>
+                </div>
+            </form>
+        </div>
+        <div class="m-popup popup popup-sms2 active">
+            <form action="#" class="form-validate-sms-2">
+                <div class="m-popup__close popup__close">
+                    <img src="img/m-popup-close.svg" alt="">
+                </div>
+                <div class="m-popup__title">
+                    Введите код из СМС
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Номер телефона
+                    </div>
+                    <div class="m-popup__field-cont">
+                        <input type="text" name="phone" class="phone-mask" disabled value="+ 7 777 777 77 77">
+                        <a href="#" class="m-popup__field-link" data-popup="sms">
+                            Изменить 
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="m-popup__field">
+                    <div class="m-popup__field-title">
+                        Пароль из СМС
+                    </div>
+                    <div class="m-popup__sms-code">
+                        <label class="m-popup-box"><input class="field" type="text" placeholder="•" /></label>
+                        <label class="m-popup-box"><input class="field" type="text" placeholder="•" /></label>
+                        <label class="m-popup-box"><input class="field" type="text" placeholder="•" /></label>
+                        <label class="m-popup-box"><input class="field" type="text" placeholder="•" /></label>
+                    </div>
+                </div>
+
+                <div class="m-popup__timer">
+                    Повторная отправка кода возможна через 0:<span class="time">30</span> сек
+                </div>
+                
+                <button class="m-popup__button-sms">
+                    Войти
+                </button>
+            </form>
+        </div>
+        
+    </div>
+
+
+    <div class="m-cookie-2">
+        <div class="m-cookie-2__close m-cookie-2-close">
+            <img src="img/m-cookie-2-close.svg" alt="">
+        </div>
+        <div class="m-cookie-2__title">
+            Для повышения удобства сайта мы используем файлы Cookie. Оставаясь на сайте, вы соглашаетесь с политикой их применения
+        </div>
+        <div class="m-cookie-2__button m-cookie2-close">
+            Понятно
+        </div>
+    </div>
 
     <div class="popup_mask"></div>
 
@@ -4856,6 +4836,15 @@
             href="javascript:bxSession.Close()"></a>Ваш сеанс работы с сайтом завершен из-за отсутствия активности в
         течение 15 мин. Введенные на странице данные не будут сохранены. Скопируйте их перед тем, как закроете или
         обновите страницу.</div>
+
+            
+    <!-- 08/11/2021 -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.js"></script>
+    <script type="text/javascript" src="./js/phone-mask.js"></script>
+    <script type="text/javascript" src="./js/custom.js"></script>
+
+    
 </body>
 <div id="vimeo-record-extension"></div>
 
