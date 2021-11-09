@@ -3342,6 +3342,7 @@
             <div data-popup="password">попап восстановить пароль</div>
             <div data-popup="sms">попап смс</div>
             <div data-popup="sms2">попап введите код из смс</div>
+            <div data-popup="sms3">попап введите код из смс</div>
         </div>
     </div>
 
@@ -3445,7 +3446,7 @@
                 </div>
             </form>
         </div>
-        <div class="m-popup popup popup-sms2 active">
+        <div class="m-popup popup popup-sms2">
             <form action="#" class="form-validate-sms-2">
                 <div class="m-popup__close popup__close">
                     <img src="img/m-popup-close.svg" alt="">
@@ -3484,6 +3485,28 @@
                 <button class="m-popup__button-sms">
                     Войти
                 </button>
+            </form>
+        </div>
+        <div class="m-popup popup popup-sms3 active">
+            <form action="#" class="form-validate-sms-2">
+                <div class="m-popup__close popup__close">
+                    <img src="img/m-popup-close.svg" alt="">
+                </div>
+                <div class="m-popup__title">
+                    Главное - безопасность
+                </div>
+                <div class="m-popup-sms-text">
+                    Мы отправим вам код подтверждения на ваш текуший номер <span>+7 777 777 7777</span>
+                </div>
+
+                <button class="m-popup__button-sms">
+                    Получить код
+                </button>
+                <div class="m-popup__forgot-container m-popup__forgot-container-1">
+                    <a href="#" class="m-popup__forgot">
+                        Изменить без подтверждения
+                    </a>
+                </div>
             </form>
         </div>
         

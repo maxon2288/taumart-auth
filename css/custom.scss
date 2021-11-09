@@ -119,6 +119,10 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 24px;
+        &-1 {
+            margin-top: 15px !important;
+            margin-bottom: 0 !important;
+        }
     }
     &__forgot {
         font-weight: 500;
@@ -165,6 +169,13 @@
         width: 100%;
         &:hover {
             background: #da6f0c;
+        }
+    }
+    &-sms-text {
+        font-size: 16px;
+        margin-bottom: 15px;
+        span {
+            font-weight: 600;
         }
     }
     &__bottom-text {

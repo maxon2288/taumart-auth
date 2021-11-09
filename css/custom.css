@@ -149,6 +149,10 @@
           align-items: center;
   margin-bottom: 24px;
 }
+.m-popup__forgot-container-1 {
+  margin-top: 15px !important;
+  margin-bottom: 0 !important;
+}
 .m-popup__forgot {
   font-weight: 500;
   font-size: 14px;
@@ -209,6 +213,13 @@
 }
 .m-popup__button-sms:hover {
   background: #da6f0c;
+}
+.m-popup-sms-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.m-popup-sms-text span {
+  font-weight: 600;
 }
 .m-popup__bottom-text {
   font-weight: normal;
